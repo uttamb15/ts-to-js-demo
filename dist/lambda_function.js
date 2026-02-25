@@ -5,7 +5,7 @@ const handler = async (event) => {
     return {
         statusCode: 200,
         body: JSON.stringify({
-            message: "Hello from TypeScript Lambda"
+            message: "Hello from github currenttime : 16:48"
         })
     };
 };
