@@ -40,6 +40,7 @@ pipeline {
 
         stage('Store JS Locally (Branch-wise)') {
             steps {
+                
                 bat """
                     echo Storing compiled JS for branch: %CURRENT_BRANCH%
 
@@ -59,11 +60,6 @@ pipeline {
             }
         }
 
-        stage('Archive JS Artifacts') {
-            steps {
-                archiveArtifacts artifacts: 'dist/**/*.js', fingerprint: true
-            }
-        }
     }
 
     post {
