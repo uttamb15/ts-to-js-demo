@@ -7,11 +7,12 @@ export const handler = async (
     statusCode: 200,
     body: JSON.stringify({
 
-      message: "Hello from github currenttime : 23:21"
+      message: "Hello from github currenttime : 10:43":
 
     })
   };
 };
+
 
 
 
