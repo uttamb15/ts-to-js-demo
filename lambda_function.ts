@@ -6,31 +6,11 @@ export const handler = async (
   return {
     statusCode: 200,
     body: JSON.stringify({
-
-      message: "Hello from github currenttime : 11:10"
+      message: "Hello from github currenttime : 11:19"
 
     })
   };
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
