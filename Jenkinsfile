@@ -5,7 +5,7 @@ pipeline {
     tools {
         nodejs 'NodeJS'
     }
-
+    // we have made this commit because just to see that it triggers or not
     environment {
         // Base directory where JS output will be stored
         BASE_OUTPUT_DIR = 'C:\\ts-js-output'
